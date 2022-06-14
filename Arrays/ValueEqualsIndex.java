@@ -7,7 +7,8 @@ public class ValueEqualsIndex {
         for(int i : list)
             System.out.print(i + " ");
     }
-    static ArrayList<Integer> valueEqualToIndex(int arr[], int n) {
+    static ArrayList<Integer> valueEqualToIndex(int arr[], int n) 
+    {
         // code here
         ArrayList<Integer> list = new ArrayList<>();
         for(int i = 0; i < n; i++)

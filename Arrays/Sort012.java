@@ -2,11 +2,16 @@ package Arrays;
 class Sort012{
     public static void main(String[] args) {
         int[] arr = new int[] {0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1};
-		
-		arr = new int[] {2, 2, 1, 1, 0, 1, 0, 0, 0, 2};
         int n = arr.length;
+		sort012(arr, n);
+        for(int i : arr)
+        	System.out.print(i + " ");
+
+        System.out.println();
+		arr = new int[] {2, 2, 1, 1, 0, 1, 0, 0, 0, 2};
+        int n1 = arr.length;
         
-        sort012(arr, n);
+        sort012(arr, n1);
         for(int i : arr)
         	System.out.print(i + " ");
     }
